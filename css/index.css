@@ -178,6 +178,16 @@ html{
     -webkit-animation:  move  2s infinite  both;
     animation:  move  2s infinite  both;
 }
+@-webkit-keyframes moveNum {
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 @keyframes moveNum {
     0%{
         -webkit-transform: rotate(0deg);
@@ -253,6 +263,16 @@ html{
     opacity: 1;
     -webkit-animation: move  1s infinite linear both;
     animation: move  1s infinite linear both;
+}
+@-webkit-keyframes move {
+    0% {
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+    100% {
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
 }
 @keyframes move {
     0% {
