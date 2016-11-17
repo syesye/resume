@@ -48,10 +48,11 @@ html{
 
 }
 .slide1 ul {
-    position: relative;
+    position: absolute;
+    left: .1rem;
+    top: 2.1rem;
     width: 3.5rem;
     height: 2rem;
-    margin:0 auto;
 }
 .slide1 ul li {
     position: absolute;
@@ -143,8 +144,8 @@ html{
     left: .05rem;
     top:.05rem;
     width: .5rem;
-    height: .5rem;
-    line-height: .5rem;
+    height: .4rem;
+    line-height: .4rem;
     text-align: center;
     background: rgba(255,255,255,.6);
     border-radius: 50%;
@@ -351,9 +352,10 @@ html{
 
 #page5>ul li img{
     opacity: 1;
+    -webkit-animation: flipInY 3s;
     animation: flipInY 3s;
 }
 #page5>ul li p{
     opacity: 1;
-    animation: flipInY 3s;
+    -webkit-animation: flipInY 3s;
 }
