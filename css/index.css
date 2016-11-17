@@ -175,6 +175,7 @@ html{
     bottom:.2rem;
 }
 #page2>.page,#page3>.page,#page4>.page,#page5>.page,#page6>.page{
+    -webkit-animation:  move  2s infinite  both;
     animation:  move  2s infinite  both;
 }
 @keyframes moveNum {
@@ -250,6 +251,7 @@ html{
 }
 .musicCur{
     opacity: 1;
+    -webkit-animation: move  1s infinite linear both;
     animation: move  1s infinite linear both;
 }
 @keyframes move {
@@ -288,25 +290,15 @@ html{
     animation: flipInX 1s .4s both;
 }
 #page3 p:nth-of-type(3){
-    -webkit-animation: flipInX 4s .6s both;
+    -webkit-animation: flipInX .4s .6s both;
     animation: flipInX 1s .6s both;
 }
 #page3 p:nth-of-type(4){
     -webkit-animation: flipInX 1s .8s both;
     animation: flipInX 1s .8s both;
 }
-#page3 p:nth-of-type(5){
-    -webkit-animation: flipInX 1s 1s both;
-    animation: flipInX 1s 1s both;
-}
-#page3 p:nth-of-type(6){
-    -webkit-animation: flipInX 1s 1.2s both;
-    animation: flipInX 1s 1.2s both;
-}
-#page3 p:nth-of-type(7){
-    -webkit-animation: flipInX 1s 1.4s both;
-    animation: flipInX 1s 1.4s both;
-}
+
+
 .slide5>ul {
     width:2.8rem;
     margin: 0 auto;
