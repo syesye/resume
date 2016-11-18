@@ -13,7 +13,7 @@ html{
     height: 100%;
 }
 
-.slide1, .slide2, .slide3, .slide4,.slide5,.slide6 {
+.slide1, .slide2, .slide3, .slide4,.slide5,.slide6,.slide7 {
     background: url("../img/bg6.png") rgba(0,0,0,.2);
     background-size: 100% 100%;
     width: 100%;
@@ -367,8 +367,29 @@ html{
     opacity: 1;
     -webkit-animation: flipInY 3s;
 }
+
+/*第六屏*/
 .slide6{
     position: relative;
+}
+.slide6 .about{
+    padding: .1rem 0 .2rem .3rem;
+    overflow: hidden;
+}
+.slide6 .about img{
+    float: left;
+}
+.slide6 .about img:nth-of-type(2){
+    margin-left: -.2rem;
+    margin-top: .06rem;
+}
+#page6 .about img:nth-of-type(1){
+    -webkit-animation: bounceIn 2.5s;
+    animation: bounceIn 2.5s;
+}
+#page6 .about img:nth-of-type(2){
+    -webkit-animation: swing 2.5s;
+    animation: swing 2.5s ;
 }
 .slide6>ul{
     position: absolute;
@@ -382,8 +403,8 @@ html{
 }
 .slide6>ul li{
     float: left;
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.25rem;
+    height: 1.25rem;
     margin: 0.02rem;
     border-radius: .4rem;
     background: rgba(0,0,0,.5);
@@ -391,9 +412,9 @@ html{
 .slide6>ul li span{
     display: block;
     text-align: center;
-    transform: rotate(-45deg) translate(-0.2rem,.15rem);
+    transform: rotate(-45deg) translate(-0.14rem,.15rem);
     color: wheat;
-    font-size: .18rem;
+    font-size: .16rem;
 }
 #page6>ul li:nth-of-type(1){
      -webkit-animation: bounceIn 2.5s ;
@@ -411,8 +432,63 @@ html{
     -webkit-animation: bounceIn 2.5s 1.5s  ;
     animation: bounceIn 2.5s 1.5s  ;
 }
-/*
-#page6>ul li span{
-    -webkit-animation: fadeInLeft 2.5s infinite;
-    animation: fadeInLeft 2.5s infinite;
-}*/
+.slide7{
+    position: relative;
+}
+.slide7>p{
+    width: 2rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin: 0 auto;
+    border-radius: .2rem;
+    text-align: center;
+    color: darkolivegreen;
+    text-shadow: 0 0 .2rem;
+    font-size: .4rem;
+    margin-top: 1rem;
+}
+#page7>p{
+    -webkit-animation: zoomIn 1s ;
+    animation: zoomIn 1s;
+}
+.slide7 img{
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    margin-left: -1.56rem;
+}
+.slide7 .info{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    margin-left: -1rem;
+}
+.slide7 .info p{
+    width: 1.5rem;
+    height: .6rem;
+    line-height: .3rem;
+    text-align: center;
+    color: white;
+    font-size: .2rem;
+    border: .01rem solid black;
+    margin-top: 0.1rem;
+    /*border-radius: .2rem;*/
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+}
+#page7 img{
+    -webkit-animation: fadeInRight 1s ;
+    animation: fadeInRight 1s;
+}
+#page7 .info p:nth-of-type(1){
+    -webkit-animation: bounceIn 2.5s infinite 1s;
+    animation: bounceIn 2.5s infinite 1s;
+}
+#page7 .info p:nth-of-type(2){
+    -webkit-animation: bounceIn 2.5s 2s infinite;
+    animation: bounceIn 2.5s 2s infinite;
+}
+#page7 .info p:nth-of-type(3){
+    -webkit-animation: bounceIn 2.5s 3s infinite;
+    animation: bounceIn 2.5s 3s infinite;
+}
