@@ -367,3 +367,52 @@ html{
     opacity: 1;
     -webkit-animation: flipInY 3s;
 }
+.slide6{
+    position: relative;
+}
+.slide6>ul{
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    margin-left: -1.5rem;
+    width: 3rem;
+    transform: rotate(45deg);
+    height: 3rem;
+    /*clear: both;*/
+}
+.slide6>ul li{
+    float: left;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0.02rem;
+    border-radius: .4rem;
+    background: rgba(0,0,0,.5);
+}
+.slide6>ul li span{
+    display: block;
+    text-align: center;
+    transform: rotate(-45deg) translate(-0.2rem,.15rem);
+    color: wheat;
+    font-size: .18rem;
+}
+#page6>ul li:nth-of-type(1){
+     -webkit-animation: bounceIn 2.5s ;
+     animation: bounceIn 2.5s ;
+}
+#page6>ul li:nth-of-type(2){
+    -webkit-animation: bounceIn 2.5s .5s  ;
+    animation: bounceIn 2.5s .5s ;
+}
+#page6>ul li:nth-of-type(3){
+    -webkit-animation: bounceIn 2.5s 1s ;
+    animation: bounceIn 2.5s 1s ;
+}
+#page6>ul li:nth-of-type(4){
+    -webkit-animation: bounceIn 2.5s 1.5s  ;
+    animation: bounceIn 2.5s 1.5s  ;
+}
+/*
+#page6>ul li span{
+    -webkit-animation: fadeInLeft 2.5s infinite;
+    animation: fadeInLeft 2.5s infinite;
+}*/
