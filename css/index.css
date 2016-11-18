@@ -320,6 +320,70 @@ html{
     -webkit-animation: flipInX 1s .8s both;
     animation: flipInX 1s .8s both;
 }
+.slide4{
+    position: relative;
+    overflow: hidden;
+}
+.slide4 img{
+    position: absolute;
+    display: none;
+}
+.slide4 img:nth-of-type(1){
+    position: absolute;
+    top:.3rem;
+}
+.slide4 img:nth-of-type(2){
+    position: absolute;
+    top:1.65rem;
+}
+.slide4 img:nth-of-type(3){
+    position: absolute;
+    top:3rem;
+}
+
+#page4 img:nth-of-type(1){
+    -webkit-animation: flipInX 1s;
+    animation: flipInX 1s;
+}
+#page4 img:nth-of-type(2){
+    -webkit-animation: flipInX 1s 1s;
+    animation: flipInX 1s 1s;
+}
+#page4 img:nth-of-type(3){
+    -webkit-animation: flipInX 1s 2s;
+    animation: flipInX 1s 2s;
+}
+
+
+.slide4>p{
+    position: absolute;
+    left: 50%;
+    margin-left: -1.4rem;
+    width: 2.5rem;
+    height: 1rem;
+    background: rgba(0,0,0,.3);
+}
+.slide4>p:nth-of-type(1){
+    top: 1rem;
+}
+.slide4>p:nth-of-type(2){
+    top: 2.3rem;
+}
+.slide4>p:nth-of-type(3){
+    top: 3.65rem;
+}
+#page4>p:nth-of-type(1){
+    -webkit-animation: flipInY 2s 2.5s;
+    animation: flipInY 2s 2.5s;
+}
+#page4>p:nth-of-type(2){
+    -webkit-animation: flipInY 2s 2.5s;
+    animation: flipInY 2s 2.5s;
+}
+#page4>p:nth-of-type(3){
+    -webkit-animation: flipInY 2s 2.5s;
+    animation: flipInY 2s 2.5s;
+}
 
 
 .slide5>ul {
@@ -373,7 +437,7 @@ html{
     position: relative;
 }
 .slide6 .about{
-    padding: .1rem 0 .2rem .3rem;
+    padding: .2rem 0 .2rem .3rem;
     overflow: hidden;
 }
 .slide6 .about img{
@@ -416,6 +480,7 @@ html{
     color: wheat;
     font-size: .16rem;
 }
+
 #page6>ul li:nth-of-type(1){
      -webkit-animation: bounceIn 2.5s ;
      animation: bounceIn 2.5s ;
@@ -445,7 +510,7 @@ html{
     color: darkolivegreen;
     text-shadow: 0 0 .2rem;
     font-size: .4rem;
-    margin-top: 1rem;
+    margin-top: .4rem;
 }
 #page7>p{
     -webkit-animation: zoomIn 1s ;
@@ -453,13 +518,13 @@ html{
 }
 .slide7 img{
     position: absolute;
-    top: 1.7rem;
+    top: 1.2rem;
     left: 50%;
     margin-left: -1.56rem;
 }
 .slide7 .info{
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     left: 50%;
     margin-left: -1rem;
 }
