@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b938f9-33d7-4dc5-acdf-c3b9a947c080" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/90.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/last12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/strip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/strip1.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/list.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="24b938f9-33d7-4dc5-acdf-c3b9a947c080" name="Default" comment="" />
     <ignored path="resume.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,7 +193,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616072" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
