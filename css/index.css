@@ -250,7 +250,6 @@ html{
 #page2 p {
     opacity: 1;
 }
-
 .music {
     width: 0.35rem;
     height: 0.35rem;
@@ -326,32 +325,44 @@ html{
 }
 .slide4 img{
     position: absolute;
-    display: none;
+    opacity: 0;
 }
 .slide4 img:nth-of-type(1){
     position: absolute;
     top:.3rem;
+    /*transition: opacity 1s;*/
 }
 .slide4 img:nth-of-type(2){
     position: absolute;
     top:1.65rem;
+    /*transition: opacity 1s 2s;*/
 }
 .slide4 img:nth-of-type(3){
     position: absolute;
     top:3rem;
+    /*transition: opacity 1s 3s;*/
 }
 
 #page4 img:nth-of-type(1){
     -webkit-animation: flipInX 1s;
     animation: flipInX 1s;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    opacity: 1;
 }
 #page4 img:nth-of-type(2){
     -webkit-animation: flipInX 1s 1s;
     animation: flipInX 1s 1s;
+    -webkit-transition: opacity 1s 1s;
+    transition: opacity 1s 1s;
+    opacity: 1;
 }
 #page4 img:nth-of-type(3){
     -webkit-animation: flipInX 1s 2s;
     animation: flipInX 1s 2s;
+    -webkit-transition: opacity 1s 2s;
+    transition: opacity 1s 2s;
+    opacity: 1;
 }
 
 
@@ -359,9 +370,13 @@ html{
     position: absolute;
     left: 50%;
     margin-left: -1.4rem;
-    width: 2.5rem;
+    width: 2.3rem;
     height: 1rem;
+    padding:0 .1rem ;
     background: rgba(0,0,0,.3);
+    font-size: .16rem;
+    color: black;
+    opacity: 0;
 }
 .slide4>p:nth-of-type(1){
     top: 1rem;
@@ -373,16 +388,22 @@ html{
     top: 3.65rem;
 }
 #page4>p:nth-of-type(1){
-    -webkit-animation: flipInY 2s 2.5s;
-    animation: flipInY 2s 2.5s;
+    opacity: 1;
+    transition: opacity 1s 1s;
+    -webkit-animation: flipInY 2s 1s;
+    animation: flipInY 2s 1s;
 }
 #page4>p:nth-of-type(2){
-    -webkit-animation: flipInY 2s 2.5s;
-    animation: flipInY 2s 2.5s;
+    opacity: 1;
+    transition: opacity 1s 2s;
+    -webkit-animation: flipInY 2s 2s;
+    animation: flipInY 2s 2s;
 }
 #page4>p:nth-of-type(3){
-    -webkit-animation: flipInY 2s 2.5s;
-    animation: flipInY 2s 2.5s;
+    opacity: 1;
+    transition: opacity 1s 3s;
+    -webkit-animation: flipInY 2s 3s;
+    animation: flipInY 2s 3s;
 }
 
 
