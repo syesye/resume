@@ -12,13 +12,18 @@ html{
     width: 100%;
     height: 100%;
 }
-
-.slide1, .slide2, .slide3, .slide4,.slide5,.slide6,.slide7 {
-    background: url("../img/bg6.png") rgba(0,0,0,.2);
+.main{
+    background: url("../img/bg1.jpg") no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
+/*.slide1, .slide2, .slide3, .slide4,.slide5,.slide6,.slide7 {
+    background: url("../img/bg6.png") rgba(0,0,0,.2);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}*/
 
 /*.slide1 {
     background: url("../img/bg5.jpg") no-repeat;
@@ -49,7 +54,8 @@ html{
 }
 .slide1 ul {
     position: absolute;
-    left: .1rem;
+    left: 50%;
+    margin-left: -1.85rem;
     top: 2.1rem;
     width: 3.5rem;
     height: 2rem;
@@ -160,7 +166,7 @@ html{
     height: .8rem;
     line-height: .8rem;
     text-align: center;
-    color: darkslategray;
+    color: wheat;
     text-shadow: 0 0 .2rem;
     font-size: .3rem;
     /*background: rgba(0,0,0,.3);*/
@@ -325,7 +331,11 @@ html{
 }
 .slide4 img{
     position: absolute;
+    left: 50%;
+    margin-left: -1.85rem;
     opacity: 0;
+    width: 3.7rem;
+    height: 2rem;
 }
 .slide4 img:nth-of-type(1){
     position: absolute;
@@ -371,21 +381,21 @@ html{
     left: 50%;
     margin-left: -1.4rem;
     width: 2.3rem;
-    height: 1rem;
-    padding:0 .1rem ;
-    background: rgba(0,0,0,.3);
+    height: .81rem;
+    padding:.08rem .1rem ;
+    background: rgba(0,0,0,.5);
     font-size: .16rem;
-    color: black;
+    color: wheat;
     opacity: 0;
 }
 .slide4>p:nth-of-type(1){
-    top: 1rem;
+    top: .86rem;
 }
 .slide4>p:nth-of-type(2){
-    top: 2.3rem;
+    top: 2.22rem;
 }
 .slide4>p:nth-of-type(3){
-    top: 3.65rem;
+    top: 3.57rem;
 }
 #page4>p:nth-of-type(1){
     opacity: 1;
@@ -493,6 +503,7 @@ html{
     margin: 0.02rem;
     border-radius: .4rem;
     background: rgba(0,0,0,.5);
+    opacity: 0;
 }
 .slide6>ul li span{
     display: block;
@@ -503,18 +514,26 @@ html{
 }
 
 #page6>ul li:nth-of-type(1){
-     -webkit-animation: bounceIn 2.5s ;
-     animation: bounceIn 2.5s ;
+    transition: opacity 2.5s;
+    opacity: 1;
+    -webkit-animation: bounceIn 2.5s ;
+    animation: bounceIn 2.5s ;
 }
 #page6>ul li:nth-of-type(2){
-    -webkit-animation: bounceIn 2.5s .5s  ;
+    transition: opacity 2.5s .5s;
+    opacity: 1;
+    -webkit-animation: bounceIn 2.5s .5s;
     animation: bounceIn 2.5s .5s ;
 }
 #page6>ul li:nth-of-type(3){
+    transition: opacity 2.5s 1s;
+    opacity: 1;
     -webkit-animation: bounceIn 2.5s 1s ;
     animation: bounceIn 2.5s 1s ;
 }
 #page6>ul li:nth-of-type(4){
+    transition: opacity 2.5s 1.5s;
+    opacity: 1;
     -webkit-animation: bounceIn 2.5s 1.5s  ;
     animation: bounceIn 2.5s 1.5s  ;
 }
